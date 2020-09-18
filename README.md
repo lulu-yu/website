@@ -1,2 +1,2 @@
 # website
-luluyu.me Github Pages Repository
+hi friends!
