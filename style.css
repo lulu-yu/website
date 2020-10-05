@@ -47,14 +47,14 @@ ul li.active a {
     width: 90%;
     height: 70%;
     top: 20%;
-    left: 130px; 
+    left: 120px; 
     position: absolute;
     color: #0e1717 ;
 }
 
 .intro {
     margin: auto;
-    width: 70%;
+    width: 60%;
 }
 
 .intro h1 {
@@ -66,7 +66,7 @@ ul li.active a {
 
 .intro p {
     width: 100%; 
-    font-size: 20px; 
+    font-size: 22px; 
     margin: 30px 0 30px 40px;
     line-height: 25px;
     color: #121f1f;
@@ -74,21 +74,32 @@ ul li.active a {
 
 .details {
     margin: auto;
-    width: 70%;
+    width: 60%;
 }
 
 .details p {
     width: 100%;
-    font-size: 17px;
+    font-size: 18px;
     margin: 30px 0 30px 40px;
     line-height: 25px;
     color: #121f1f;
 }
 
-.social-icons {
-    margin-left: 640px;
-    display: inline-flex;
-    color: #121f1f;
+.button {
+    position: absolute;
+    top: 90%;
+    left: 45%; 
 }
 
+.btn {
+    border: 1px solid #121f1f;
+    padding: 5px 20px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
 
+.btn:hover {
+    background-color: #121f1f;
+    color: #fff;
+}
