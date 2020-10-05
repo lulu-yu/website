@@ -46,7 +46,7 @@ ul li.active a {
 .banner {
     width: 90%;
     height: 70%;
-    top: 10%;
+    top: 20%;
     left: 130px; 
     position: absolute;
     color: #0e1717 ;
@@ -54,7 +54,7 @@ ul li.active a {
 
 .intro {
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
 .intro h1 {
@@ -74,7 +74,7 @@ ul li.active a {
 
 .details {
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
 .details p {
