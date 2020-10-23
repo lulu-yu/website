@@ -120,12 +120,12 @@ ul li.active a {
 .footer {
     background: #000;
     color: #fff;
-    height: 250px;
+    height: 180px;
     position: relative;
 }
 
 .footer .footer-content {
-    height: 250px;
+    height: 180px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -133,7 +133,7 @@ ul li.active a {
 .footer .footer-content .footer-section {
     flex: flex-start;
     padding: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .footer .footer-content h2 {
