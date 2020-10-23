@@ -46,10 +46,9 @@ ul li.active a {
 
 /* styling for intro banner */
 .banner {
-    width: 80%;
+    width: fit-content;
     height: 70%;
     top: 15%;
-    left: 50px; 
     position: absolute;
     color: #000;
 }
@@ -92,7 +91,8 @@ ul li.active a {
 }
 
 .intro p a:hover {
-    text-decoration: underline;
+    font-style: italic;
+    color: palevioletred;
 }
 
 /* styling for details from index.html */
@@ -103,7 +103,7 @@ ul li.active a {
 
 .details p {
     width: 100%;
-    font-size: 18px;
+    font-size: 15px;
     margin: 30px 0 30px 40px;
     line-height: 25px;
     color: #000;
@@ -116,16 +116,78 @@ ul li.active a {
     color: #000;
 }
 
+.sg {
+    width: 100%;
+    height: 70%;
+    top: 15%;
+    position: absolute;
+    color: #000;
+}
+
+.title {
+    margin: auto;
+    width: 80%;
+}
+
+.title h1 {
+    font-size: 40px;
+    width: 100%;
+    position: relative;
+    margin-left: 40px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.title h2 {
+    width: 100%; 
+    font-size: 20px; 
+    margin: 30px 0 30px 40px;
+    line-height: 20px;
+    color: #000;
+}
+
+.title p {
+    width: 100%; 
+    font-size: 15x; 
+    margin: 30px 0 30px 40px;
+    line-height: 15px;
+    color: #000;
+}
+
+.title h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.title h2 a:hover {
+    font-style: italic;
+    color: palevioletred;
+}
+
+.title span {
+    font-size: 1.3em;
+}
+
+.title p a {
+    color: #000;
+    text-decoration: none;
+}
+
+.title p a:hover {
+    font-style: italic;
+    color: palevioletred;
+}
+
 /* styling for footer begins*/
 .footer {
     background: #000;
     color: #fff;
-    height: 180px;
+    height: 135px;
     position: relative;
 }
 
 .footer .footer-content {
-    height: 180px;
+    height: 135px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -133,12 +195,11 @@ ul li.active a {
 .footer .footer-content .footer-section {
     flex: flex-start;
     padding: 30px;
-    margin-top: 10px;
 }
 
 .footer .footer-content h2 {
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: normal;
 }
 
@@ -223,7 +284,7 @@ ul li.active a {
 }
 
 .self-intro .background .bgd-body p {
-    margin: 20px 0 30px 40px;
+    margin: 20px 0 20px 40px;
     width: 100%; 
 }
 
