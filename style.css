@@ -165,7 +165,7 @@ ul li.active a {
 }
 
 .title span {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .title p a {
@@ -235,16 +235,9 @@ ul li.active a {
     width: 80%;
 }
 
-.self-intro .profpic {
-    position: relative;
-    margin-left: 40px;
-    display: flex;
-    justify-content: center;
-}
-
 .self-intro .background {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .self-intro .background .bgd-ntmy {
@@ -257,6 +250,8 @@ ul li.active a {
     font-size: 35px;
     font-weight: 500;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .self-intro .background .bgd-ntmy p {
@@ -264,18 +259,7 @@ ul li.active a {
 }
 
 .self-intro .background .bgd-ntmy p span {
-    font-size: 1.3em;
-}
-
-.self-intro .background .bgd-ntmy p a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 580;
-}
-
-.self-intro .background .bgd-ntmy p a:hover {
-    font-style: italic;
-    color: palevioletred;
+    font-size: 1.1em;
 }
 
 .self-intro .background .bgd-body {
@@ -284,9 +268,18 @@ ul li.active a {
 }
 
 .self-intro .background .bgd-body p {
-    margin: 20px 0 20px 40px;
+    margin: 20px 0 20px 0;
     width: 100%; 
 }
 
+.self-intro .background .bgd-body p a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 580;
+}
 
+.self-intro .background .bgd-body p a:hover {
+    font-style: italic;
+    color: palevioletred;
+}
 
