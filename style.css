@@ -19,7 +19,7 @@
 ul {
     float: right; 
     list-style: none;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 ul li {
@@ -244,9 +244,7 @@ ul li.active a {
 }
 
 .self-intro .background .bgd-ntmy {
-    flex: flex-start;
     margin-left: 40px;
-    width: 150%;
 }
 
 .self-intro .background .bgd-ntmy h1 {
@@ -255,7 +253,7 @@ ul li.active a {
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    padding-right: 75px;
+    padding-right: 150px;
 }
 
 .self-intro .background .bgd-ntmy p {
