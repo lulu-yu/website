@@ -4,10 +4,6 @@
     font-family: 'Taviraj', serif;
 }
 
-html, body {
-    height: 100%;
-}
-
 .container {
     width: 100%;
     height: 100%;
@@ -19,10 +15,11 @@ html, body {
     margin: auto;
 }
 
+/* styling for header buttons */
 ul {
     float: right; 
     list-style: none;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 ul li {
@@ -47,8 +44,9 @@ ul li.active a {
     color: #fff;
 }
 
+/* styling for intro banner */
 .banner {
-    width: 90%;
+    width: 80%;
     height: 70%;
     top: 15%;
     left: 50px; 
@@ -62,20 +60,31 @@ ul li.active a {
 }
 
 .intro h1 {
-    font-size: 43px;
-    width: 640px;
+    font-size: 48px;
+    width: 90%;
     position: relative;
     margin-left: 40px;
+    font-weight: 500;
 }
 
 .intro p {
     width: 100%; 
-    font-size: 20px; 
+    font-size: 25px; 
     margin: 30px 0 30px 40px;
-    line-height: 25px;
+    line-height: 35px;
     color: #000;
 }
 
+.intro a {
+    color: #000;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+}
+
+/* styling for details from index.html */
 .details {
     margin: auto;
     width: 80%;
@@ -83,12 +92,20 @@ ul li.active a {
 
 .details p {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     margin: 30px 0 30px 40px;
     line-height: 25px;
     color: #000;
 }
 
+.details span {
+    width: 100%;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000;
+}
+
+/* styling for footer begins*/
 .footer {
     background: #000;
     color: #fff;
@@ -114,6 +131,12 @@ ul li.active a {
     font-weight: normal;
 }
 
+.footer .footer-content .about .contact a {
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
+}
+
 .footer .footer-content .about .contact span {
     display: block;
     font-size: 1em;
@@ -133,5 +156,64 @@ ul li.active a {
     background-color: #fff;
     color: #000;
 }
+
+/* styling for about.html */
+.self-intro {
+    margin: auto;
+    width: 80%;
+}
+
+.self-intro .profpic {
+    position: relative;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.self-intro .background {
+    display: flex;
+    justify-content: center;
+}
+
+.self-intro .background .bgd-ntmy {
+    flex: flex-start;
+    margin-left: 40px;
+    width: 150%;
+}
+
+.self-intro .background .bgd-ntmy h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.self-intro .background .bgd-ntmy p {
+    font-size: 20px;
+}
+
+.self-intro .background .bgd-ntmy p span {
+    font-size: 1.3em;
+}
+
+.self-intro .background .bgd-ntmy p a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 580;
+}
+
+.self-intro .background .bgd-ntmy p a:hover {
+    text-decoration: underline;
+}
+
+.self-intro .background .bgd-body {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.self-intro .background .bgd-body p {
+    margin: 20px 0 30px 40px;
+    width: 100%; 
+}
+
 
 
