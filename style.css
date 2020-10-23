@@ -19,7 +19,7 @@
 ul {
     float: right; 
     list-style: none;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 ul li {
@@ -60,27 +60,38 @@ ul li.active a {
 }
 
 .intro h1 {
-    font-size: 48px;
-    width: 90%;
+    font-size: 40px;
+    width: 100%;
     position: relative;
     margin-left: 40px;
     font-weight: 500;
+    line-height: 140%;
 }
 
 .intro p {
     width: 100%; 
-    font-size: 25px; 
+    font-size: 20px; 
     margin: 30px 0 30px 40px;
-    line-height: 35px;
+    line-height: 30px;
     color: #000;
 }
 
-.intro a {
+.intro h1 a {
     color: #000;
     text-decoration: none;
 }
 
-.intro a:hover {
+.intro h1 a:hover {
+    font-style: italic;
+    color: palevioletred;
+}
+
+.intro p a {
+    color: #000;
+    text-decoration: none;
+}
+
+.intro p a:hover {
     text-decoration: underline;
 }
 
@@ -182,13 +193,13 @@ ul li.active a {
 }
 
 .self-intro .background .bgd-ntmy h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 500;
     margin-top: 10px;
 }
 
 .self-intro .background .bgd-ntmy p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .self-intro .background .bgd-ntmy p span {
@@ -202,12 +213,13 @@ ul li.active a {
 }
 
 .self-intro .background .bgd-ntmy p a:hover {
-    text-decoration: underline;
+    font-style: italic;
+    color: palevioletred;
 }
 
 .self-intro .background .bgd-body {
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .self-intro .background .bgd-body p {
