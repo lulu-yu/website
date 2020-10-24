@@ -14,7 +14,7 @@
     overflow: hidden;
     max-width: 1200px;
     margin: auto;
-    padding: 20px 10px;
+    padding: 20px 100px;
 }
 
 .header a {
@@ -66,7 +66,7 @@
 .banner {
     width: fit-content;
     height: 70%;
-    top: 15%;
+    top: 18%;
     position: absolute;
     color: #000;
 }
@@ -80,7 +80,7 @@
     font-size: 40px;
     width: 100%;
     position: relative;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 140%;
 }
 
