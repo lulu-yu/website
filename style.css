@@ -119,6 +119,7 @@
 .details {
     margin: auto;
     width: 80%;
+    font-style: italic;
 }
 
 .details p {
@@ -136,6 +137,23 @@
     color: #000;
 }
 
+/* styling for projects from index.html */
+.projects {
+    margin: auto;
+    width: 80%;
+}
+
+.projects h1 {
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.projects p img {
+    border-radius: 15px;
+}
 
 /* styling for social good page*/
 .sg {
