@@ -147,12 +147,46 @@
     font-size: 20px;
     width: 100%;
     position: relative;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 140%;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: 1.4em;
 }
 
-.projects p img {
-    border-radius: 15px;
+.projects img {
+    margin-right: 30px;
+}
+
+.projects .proj-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects .proj-one .proj-left {
+    position: relative;
+}
+
+.projects .proj-one .proj-right {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.projects .proj-one .proj-right p {
+    margin: 20px 0 20px 0;
+    width: 100%; 
+}
+
+.projects .proj-one .proj-right p a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.projects .proj-one .proj-right p a:hover {
+    font-style: italic;
+    color: palevioletred;
+    text-decoration: none;
 }
 
 /* styling for social good page*/
@@ -189,7 +223,7 @@
 .title p {
     width: 100%; 
     font-size: 18px; 
-    margin: 30px 0 30px 0;
+    margin: 30px 0 15px 0;
     line-height: 45px;
     color: #000;
 }
@@ -284,15 +318,7 @@
     justify-content: space-evenly;
 }
 
-
-
 .self-intro .background .bgd-ntmy h1 {
-    /* font-size: 30px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    padding-right: 150px; */
-
     font-size: 40px;
     position: relative;
     font-weight: 500;
