@@ -96,6 +96,7 @@
     color: #000;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 .intro h1 a:hover {
@@ -150,7 +151,7 @@
     font-weight: normal;
     line-height: 140%;
     font-family: 'Playfair Display', serif;
-    font-style: normal;
+    font-style: italic;
     font-size: 1.4em;
 }
 
@@ -181,6 +182,7 @@
     color: #000;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 .projects .proj-one .proj-right p a:hover {
@@ -232,6 +234,7 @@
     color: #000;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
 
 .title h2 a:hover {
